@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 99%;
+	height: 1000px;
+	outline: 1px solid darkblue;
+}
+
+.main_img {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	padding-top: 0px;
+	width: 60%;
+}
+
+.sidebar {
+	float: left;
+	width: 15%;
+	margin: 25px 0 0 25px;
+	border: 5px ridge darkgrey;
+	border-radius: 5px;
+	background-color: /*#E6E6FA*/ /*#F0FFF0*/ #E5E4F0 /*#E5E4F0*/ /*#FFF5EE*/;
+}
+
+.info {
+	width: 100%;
+	height: 40%;
+	text-align: center;
+}
+
+.info div {
+	font-size: 16px
+	margin: 0 0 5px 0;
+	border-top: 1px solid grey;
+}
+
+.info div:first-child,
+.info div:nth-child(4),
+.info div:nth-child(6) {
+	font-weight: bold;
+}
+
+.info div:nth-child(2),
+.info div:nth-child(3),
+.info div:nth-child(5),
+.info div:nth-child(7) {
+	border-top: none;
+	padding-bottom: 15px;
+}
+
+
+.info div:nth-child(2) {
+	padding-bottom: 0;	
+}
+
+.info div:nth-child(7) {
+	border-bottom: 7px groove grey;	
+}
+
+.links {
+	width: 100%;
+	height: 60%;
+	text-align: center;
+}
+
+.links div {
+	font-size: 16px
+	margin: 0 0 5px 0;
+	border-bottom: 1px dashed grey;
+}
+
+.links div:first-child,
+.links div:nth-child(3),
+.links div:nth-child(5) {
+	border-bottom: none;
+}
+
+.links div:first-child {
+	font-weight: bolder;
+	padding: 15px 0 0 0;
+}
+
+.links div:nth-child(2) {
+	padding: 30px 0 15px 0;
+}
+
+.links div:nth-child(3) {
+	padding: 15px 0 0 0;
+}
+.links div:nth-child(4) {
+	font-size: 14px;
+	padding: 0 0 15px 0;
+}
+
+.links div:nth-child(5) {
+	padding: 15px 0;
+}
+
+.links a {
+	text-decoration: none;
+}
+
+.links a:link,
+.links a:visited {
+	color: 	/*#021631*/ /*#120424*/ /*#00364d*/ /*#043144*/ #0D1D56;
+}
+
+.links a:hover {
+	color: #DC143C;
+}
+
+.links a:active {
+	color: #0D1D56;
+}
+
+.gradient {
+	width: 100%;
+	height: 15%;
+	outline: 1px solid darkblue;
+	/*background-color: #162a42;*/
+  	background: linear-gradient(to left, #021b79, #0575e6);
+  	/*background: linear-gradient(to right, #2b32b2, #1488CC);*/
+  	/*background-image: linear-gradient(to right, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);*/
+}
+
+.gradient img {
+	display: block;
+	width: 10%;
+	height: 20%;
+	padding: 15px 0 0 30px;
+}
+
+
