@@ -1,1 +1,1 @@
-# geo-dita/gradient&sidebar
+# geo-dita/gradient&sidebar&oprema&zaposleni
