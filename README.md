@@ -1,1 +1,1 @@
-# geo-dita
+# geo-dita/gradient&sidebar
